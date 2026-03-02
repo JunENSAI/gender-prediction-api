@@ -1,0 +1,10 @@
+[project]
+name = "gender-prediction-api"
+version = "0.1.0"
+description = "API de prédiction de genre basée sur les prénoms INSEE"
+dependencies = [
+    "fastapi[standard]",
+    "joblib",
+    "scikit-learn",
+    "pandas",
+]
